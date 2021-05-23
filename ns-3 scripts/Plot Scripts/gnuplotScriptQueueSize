@@ -1,0 +1,8 @@
+set terminal pngcairo enhanced color lw 1.5 font 'Times Roman'
+set xrange [0:100]
+set yrange [0:80]
+set output "queueSize.png"
+set xlabel "Time (sec)"
+set ylabel "Queue occupancy (No. of packets)"
+set key right top vertical
+plot "queueSize.plotme" title "Queue Length" with lines lw 1.5 lc 'blue'

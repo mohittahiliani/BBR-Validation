@@ -38,5 +38,7 @@ This work was a joint effort by the following students at National Institute of 
 * NeST scripts were developed by Sushma Meena and Aditya Chaudhary
 
 The details of BBR implementation in ns-3 are published in:
+
 `Vivek Jain, Viyom Mittal and Mohit P. Tahiliani. "Design and Implementation of TCP BBR in ns-3." Proceedings of the 10th Workshop on ns-3. 2018.`
+
 Link: `https://dl.acm.org/doi/10.1145/3199902.3199911`

@@ -219,11 +219,13 @@ int main (int argc, char *argv [])
   system ((dirToSave + "/pcap/").c_str ());
 
   // The plotting scripts are provided in the following repository, if needed:
+  // https://github.com/mohittahiliani/BBR-Validation/
+  //
+  // Download 'PlotScripts' directory (which is inside ns-3 scripts directory)
+  // from the link given above and place it in the ns-3 root directory.
+  // Uncomment the following three lines to generate plots for Congestion
+  // Window, sender side throughput and queue occupancy on the bottleneck link.
   // 
-  // Download 'PlotScripts' directory from the link given above and
-  // place it in the ns-3 root directory. Uncomment the following three
-  // lines to generate plots for Congestion Window, sender side throughput
-  // and queue occupancy on the bottleneck link.
   // system (("cp -R PlotScripts/gnuplotScriptCwnd " + dir).c_str ());
   // system (("cp -R PlotScripts/gnuplotScriptThroughput " + dir).c_str ());
   // system (("cp -R PlotScripts/gnuplotScriptQueueSize " + dir).c_str ());

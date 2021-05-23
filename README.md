@@ -29,4 +29,14 @@ sudo python3 tcp-bbr-example.py
 
 ## Final Result with overlapped plot
 When the congestion window plots from ns-3 and NeST are overlapped, you should get the plot as shown below:
+
 ![Final graph](https://github.com/mohittahiliani/BBR-Validation/blob/main/Final%20plot/cwnd.png?raw=true)
+
+## Acknowledgments
+This work was a joint effort by the following students at National Institute of Technology Karnataka, Surathkal, India:
+* ns-3 scripts were developed by Aarti Nandagiri and Vivek Jain
+* NeST scripts were developed by Sushma Meena and Aditya Chaudhary
+
+The details of BBR implementation in ns-3 are published in:
+`Vivek Jain, Viyom Mittal and Mohit P. Tahiliani. "Design and Implementation of TCP BBR in ns-3." Proceedings of the 10th Workshop on ns-3. 2018.`
+Link: `https://dl.acm.org/doi/10.1145/3199902.3199911`

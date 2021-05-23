@@ -28,4 +28,5 @@ sudo python3 tcp-bbr-example.py
 * The plot for congestion window is available in `ss` directory
 
 ## Final Result with overlapped plot
+When the congestion window plots from ns-3 and NeST are overlapped, you should get the plot as shown below:
 ![Final graph](https://github.com/mohittahiliani/BBR-Validation/blob/main/Final%20plot/cwnd.png?raw=true)

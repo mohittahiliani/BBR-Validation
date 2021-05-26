@@ -44,20 +44,13 @@
 // (3) throughput.plotme contains sender side throughput trace
 // (4) queueSize.plotme contains queue length trace from the bottleneck link
 
-#include <iostream>
-#include <string>
-#include <fstream>
-
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
 #include "ns3/point-to-point-module.h"
 #include "ns3/applications-module.h"
-#include "ns3/packet-sink.h"
 #include "ns3/traffic-control-module.h"
-#include "ns3/random-variable-stream.h"
 #include "ns3/flow-monitor-module.h"
-#include "ns3/callback.h"
 
 using namespace ns3;
 

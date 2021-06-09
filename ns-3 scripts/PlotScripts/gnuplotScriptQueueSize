@@ -5,4 +5,4 @@ set output "queueSize.png"
 set xlabel "Time (sec)"
 set ylabel "Queue occupancy (No. of packets)"
 set key right top vertical
-plot "queueSize.plotme" title "Queue Length" with lines lw 1.5 lc 'blue'
+plot "queueSize.dat" title "Queue Length" with lines lw 1.5 lc 'blue'

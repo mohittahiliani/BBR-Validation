@@ -5,4 +5,4 @@ set output "cwnd.png"
 set xlabel "Time (sec)"
 set ylabel "Cwnd (Packets)"
 set key right top vertical
-plot "cwnd.plotme" title "Cwnd" with lines lw 1.5 lc 'blue',
+plot "cwnd.dat" title "Cwnd" with lines lw 1.5 lc 'blue',
